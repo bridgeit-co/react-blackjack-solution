@@ -62,9 +62,9 @@ export default function App() {
     setMessage(messages.bet);
     // deal cards
     drawCard("player");
-    drawCard("dealer-hidden");
-    drawCard("player");
     drawCard("dealer");
+    drawCard("player");
+    drawCard("dealer-hidden");
     // set game status to "playerTurn"
     setGameStatus("playerTurn");
   };

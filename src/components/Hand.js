@@ -12,7 +12,7 @@ export default function Hand(props) {
         {/* Step 2.2 Map over the cards array and render a Card component for each card */}
         {cards.length > 0 && (
           cards.map((card, index) => (
-            <Card key={index} card={card} />
+            <Card card={card} />
             ))
             )}
       </div>
